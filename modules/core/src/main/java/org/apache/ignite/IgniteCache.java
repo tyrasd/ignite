@@ -199,7 +199,7 @@ public interface IgniteCache<K, V> extends javax.cache.Cache<K, V>, IgniteAsyncS
      * signature of the cache can contain only following types:
      * <ul>
      *     <li><code>org.apache.ignite.binary.BinaryObject</code> for binary classes</li>
-     *     <li>All primitives (byte, int, ...) and there boxed versions (Byte, Integer, ...)</li>
+     *     <li>All primitives (byte, int, ...) and their boxed versions (Byte, Integer, ...)</li>
      *     <li>Arrays of primitives (byte[], int[], ...)</li>
      *     <li>{@link String} and array of {@link String}s</li>
      *     <li>{@link UUID} and array of {@link UUID}s</li>
